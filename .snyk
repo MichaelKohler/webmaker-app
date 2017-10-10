@@ -1,0 +1,91 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - makedrive > bower > request > hawk:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > bower-registry-client > request > hawk:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > request > hawk:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > grunt-contrib-less > less > request > hawk:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > bower-registry-client > request > hawk:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > insight > request > hawk:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > archiver > file-utils > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > archiver > file-utils > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer-fs > mocha > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > fstream-ignore > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > glob > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:negotiator:20160616':
+    - makedrive > webmaker-auth > express > connect > negotiator:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > express > connect > negotiator:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:qs:20140806-1':
+    - makedrive > bower > request > qs:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > insight > request > qs:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > express > connect > qs:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > webmaker-auth > express > connect > qs:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:request:20160119':
+    - makedrive > bower > request:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > bower-registry-client > request:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > insight > request:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > grunt-contrib-less > less > request:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > request:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > bower > bower-registry-client > request:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:semver:20150403':
+    - makedrive > bower > semver:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > semver:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > update-notifier > semver-diff > semver:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:shell-quote:20160621':
+    - makedrive > bower > shell-quote:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > shell-quote:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:tar:20151103':
+    - makedrive > bower > tar:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:uglify-js:20151024':
+    - makedrive > bower > handlebars > uglify-js:
+        patched: '2017-10-10T21:02:52.781Z'
+    - makedrive > filer > bower > handlebars > uglify-js:
+        patched: '2017-10-10T21:02:52.781Z'
+  'npm:ws:20160920':
+    - makedrive > ws:
+        patched: '2017-10-10T21:02:52.781Z'

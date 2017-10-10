@@ -6,7 +6,9 @@
     "url": "https://github.com/mozillafordevelopment/webmaker-app"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "export.js",
   "dependencies": {
@@ -19,7 +21,8 @@
     "makedrive": "0.0.53",
     "webmaker-auth-client": "0.2.8",
     "xhr": "1.16.1",
-    "gulp": "3.8.8"
+    "gulp": "3.8.11",
+    "snyk": "^1.42.5"
   },
   "devDependencies": {
     "del": "0.1.2",
@@ -43,5 +46,6 @@
     "bulk-require": "0.2.1",
     "habitat": "3.0.0",
     "tv4": "^1.1.4"
-  }
+  },
+  "snyk": true
 }
